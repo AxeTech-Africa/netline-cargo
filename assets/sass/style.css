@@ -427,7 +427,7 @@ img {
   width: 50%;
   height: 0;
   content: "";
-  background-color: #0BA08A;
+  background-color:#FF7236;
   transition: all 0.4s ease-in-out;
   border-radius: 0;
   z-index: -1;
@@ -439,13 +439,13 @@ img {
   width: 51%;
   height: 0;
   content: "";
-  background-color: #0BA08A;
+  background-color: #FF7236;
   transition: all 0.4s ease-in-out;
   border-radius: 0;
   z-index: -1;
 }
 .theme-btn:hover, .view-cart-btn:hover, .theme-btn:focus, .view-cart-btn:focus, .theme-btn:active, .view-cart-btn:active {
-  color: #fff;
+  color: #3e9e76;
 }
 .theme-btn:hover::before, .view-cart-btn:hover::before {
   height: 100%;
@@ -465,7 +465,7 @@ img {
   color: #6e6e6e;
   display: inline-block;
   padding: 12px 22px;
-  border: 1px solid #0BA08A;
+  border: 1px solid #FF7236;
   border-radius: 55px;
   text-transform: capitalize;
   z-index: 1;
@@ -491,7 +491,7 @@ img {
   }
 }
 .theme-btn-s2:hover, .theme-btn-s2:focus, .theme-btn-s2:active {
-  background: #098875;
+  background: #FF7236;
   color: #fff;
 }
 .theme-btn-s2:hover:after {
@@ -673,7 +673,7 @@ img {
 }
 
 .wpo-breadcumb-area {
-  background: url(../images/page-title.jpg) no-repeat center top/cover;
+  background: url(../images/netline/cargo-container-ship-top-view-carrying-container-a-2024-12-08-00-45-42-utc.webp) no-repeat center top/cover;
   min-height: 500px;
   position: relative;
   display: flex;
@@ -1930,7 +1930,7 @@ img {
   font-size: 18px;
   font-weight: 700;
   line-height: 42px;
-  background: #0BA08A;
+  background: #FF7236;
   display: flex;
   align-items: center;
 }
@@ -2915,7 +2915,7 @@ img {
 .wpo-site-header-s2 .wpo-site-header .header-right .close-form .theme-btn, .wpo-site-header-s2 .wpo-site-header .header-right .close-form .view-cart-btn {
   padding: 0px;
   text-transform: capitalize;
-  background: #0BA08A;
+  background: #FF7236;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15561,5 +15561,21 @@ a {
 @media screen and (max-width: 768px) {
   .why-choose-one {
       padding: 20px 0; 
+  }
+}
+
+
+
+
+.logo img {
+  max-width: 150px;  /* Adjust width as needed */
+  height: auto;
+}
+
+
+
+@media (max-width: 768px) {
+  .logo img {
+      max-width: 100px;
   }
 }

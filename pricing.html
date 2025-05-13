@@ -89,8 +89,8 @@
                             </div>
                             <div class="col-lg-2 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg"
-                                            alt=""></a>
+                                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo/Black NLC.png" alt="netline cargo logo"></a>
+
                                 </div>
                             </div>
                             <div class="col-lg-7 col-md-1 col-1">
@@ -101,18 +101,13 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Services </a>
                                             <ul class="sub-menu">
-                                                <li><a href="services.html">Services </a></li>
+                                                <li><a href="services.html">All Services </a></li>
                                                 <li><a href="air-transport.html">Air transport</a></li>
                                                 <li><a href="ocean-transport.html">Ocean transport</a></li>
+                                                <li><a href="online.html">Online Buying</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Shop Online</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="shop.html">Shop</a></li>
-                                                
-                                            </ul>
-                                        </li>
+                                        <li><a href="shop.html">Shop Online</a></li>
                                         <li><a href="about.html">About </a></li>
 
                                         <li><a href="contact.html">News</a></li>
@@ -135,7 +130,7 @@
                                     </a>
                                    
                                     <div class="close-form">
-                                        <a class="theme-btn" href="contact.html">Get an quate <i
+                                        <a class="theme-btn" href="pricing.html">Get an quate <i
                                                 class="flaticon-next"></i></a>
                                     </div>
                                 </div>
@@ -154,7 +149,7 @@
                     <div class="col col-xs-12">
                         <div class="wpo-breadcumb-wrap">
                             <h2>Internation Logistics</h2>
-                            <h3>Pricing</h3>
+                            <h3>Get Quote</h3>
                         </div>
                     </div>
                 </div>
@@ -162,314 +157,158 @@
         </section>
         <!-- end page-title -->
 
-        <section class="wpo-request-quate-section">
+         <!-- start of wpo-get-quate-section -->
+         <section class="wpo-get-quate-section section-padding">
             <div class="container">
-                <div class="title">
-                    <h1>Transport</h1>
-                </div>
-                <div class="tab-wrap">
-                    <div class="tab">
-                        <button class="tablinks" onclick="openTab(event, 'Tab1')">Request a quate</button>
-                        <button class="tablinks" onclick="openTab(event, 'Tab2')">Track & Trace</button>
-                    </div>
-                    <div id="Tab1" class="tabcontent">
-                        <div class="tab-wraper">
-                            <div class="form-wrap">
-                                <form id="shippingForm">
-                                    <div class="row align-items-end">
-                                        <div class="col-12">
-                                            <div class="row align-items-end">
-                                                <div class="col-lg-5 col-12">
-                                                    <div class="form-fild">
-                                                        <label for="fullName">Personal information</label>
-                                                        <input id="fullName" class="fild" type="text"
-                                                            placeholder="Full name" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-7 col-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-6 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="email" class="fild" type="email"
-                                                                    placeholder="Email address" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="subject" class="fild" type="text"
-                                                                    placeholder="Subject" required>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="row align-items-end">
-                                                <div class="col-lg-5 col-12">
-                                                    <div class="form-fild">
-                                                        <label for="freightType">Shipment Data</label>
-                                                        <select id="freightType" class="fild" required>
-                                                            <option value="" disabled selected>Freight Type</option>
-                                                            <option value="type1">Freight Type 1</option>
-                                                            <option value="type2">Freight Type 2</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-7 col-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-6 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="cityOfDeparture" class="fild" type="text"
-                                                                    placeholder="City of departure" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="deliveryCity" class="fild" type="text"
-                                                                    placeholder="Delivery City" required>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="row align-items-end">
-                                                <div class="col-lg-4 col-12">
-                                                    <div class="form-fild">
-                                                        <select id="cityOfDeparture2" class="fild" required>
-                                                            <option value="" disabled selected>City of departure
-                                                            </option>
-                                                            <option value="city1">City 1</option>
-                                                            <option value="city2">City 2</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-8 col-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-4 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="weight" class="fild" type="number"
-                                                                    placeholder="Weight, kg" required min="0">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="additionalDetails" class="fild" type="text"
-                                                                    placeholder="Additional details">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="volume" class="fild" type="number"
-                                                                    placeholder="Volume, m3" required min="0">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-9 col-12">
-                                            <div class="row chack">
-                                                <div class="col-lg-3 col-md-6 col-12">
-                                                    <div class="form-fild s2">
-                                                        <input type="checkbox" id="expressDelivery">
-                                                        <label class="chack-leval" for="expressDelivery">Express
-                                                            delivery</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6 col-12">
-                                                    <div class="form-fild s2">
-                                                        <input type="checkbox" id="fragile">
-                                                        <label class="chack-leval" for="fragile">Fragile</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6 col-12">
-                                                    <div class="form-fild s2">
-                                                        <input type="checkbox" id="insurance1">
-                                                        <label class="chack-leval" for="insurance1">Insurance</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6 col-12">
-                                                    <div class="form-fild s2">
-                                                        <input type="checkbox" id="insurance2">
-                                                        <label class="chack-leval" for="insurance2">Insurance</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-fild mb-0">
-                                                <button type="submit" class="theme-btn">Request For a Quote</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="left-content">
+                            <div class="wpo-section-title">
+                                <h2>Trusted Shipping service</h2>
+                                <h3>International Shipping & Logistics</h3>
                             </div>
-                            <div class="video-content">
-                                <img src="assets/images/video-bg-1.jpg" alt="">
-                                <div class="video-holder">
-                                    <a href="https://www.youtube.com/embed/7Jv48RQ_2gk" class="video-btn"
-                                        data-type="iframe"><i class="flaticon-play-button-arrowhead"></i></a>
-                                </div>
+                            <div class="quat">
+                                <p>Netline Cargo Limited is a trusted international shipping provider, offering seamless air and sea freight solutions from global locations to Kenya — ensuring fast, secure, and efficient delivery every time.</p>
                             </div>
+                            <ul class="get-item">
+                                <li>
+                                    <i class="flaticon-boat-with-containers"></i>
+                                    <h3>Sea Freight services</h3>
+                                </li>
+                                <li>
+                                    <i class="flaticon-air-plane"></i>
+                                    <h3>Air Freight services</h3>
+                                </li>
+                                <li>
+                                    <i class="flaticon-tracking"></i>
+                                    <h3>End to End Cargo
+                                        Tracking</h3>
+                                </li>
+                            </ul>
+                            <ul class="quate-item">
+                               
+                                <li>
+                                    <i class="flaticon-distribution-center"></i>
+                                    <h3>Customs compliance & Streamlined Logistics</h3>
+                                </li>
+                            </ul>
+                            <a href="about.html" class="theme-btn">more about us</a>
                         </div>
                     </div>
-                    <div id="Tab2" class="tabcontent">
-                        <div class="tab-wraper">
-                            <div class="form-wrap">
-                                <form id="shippingForm">
-                                    <div class="row align-items-end">
-                                        <div class="col-12">
-                                            <div class="row align-items-end">
-                                                <div class="col-lg-5 col-12">
-                                                    <div class="form-fild">
-                                                        <label for="fullName">Personal information</label>
-                                                        <input id="fullName" class="fild" type="text"
-                                                            placeholder="Full name" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-7 col-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-6 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="email" class="fild" type="email"
-                                                                    placeholder="Email address" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="subject" class="fild" type="text"
-                                                                    placeholder="Subject" required>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="row align-items-end">
-                                                <div class="col-lg-5 col-12">
-                                                    <div class="form-fild">
-                                                        <label for="freightType">Shipment Data</label>
-                                                        <select id="freightType" class="fild" required>
-                                                            <option value="" disabled selected>Freight Type</option>
-                                                            <option value="type1">Freight Type 1</option>
-                                                            <option value="type2">Freight Type 2</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-7 col-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-6 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="cityOfDeparture" class="fild" type="text"
-                                                                    placeholder="City of departure" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="deliveryCity" class="fild" type="text"
-                                                                    placeholder="Delivery City" required>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="row align-items-end">
-                                                <div class="col-lg-4 col-12">
-                                                    <div class="form-fild">
-                                                        <select id="cityOfDeparture2" class="fild" required>
-                                                            <option value="" disabled selected>City of departure
-                                                            </option>
-                                                            <option value="city1">City 1</option>
-                                                            <option value="city2">City 2</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-8 col-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-4 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="weight" class="fild" type="number"
-                                                                    placeholder="Weight, kg" required min="0">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4 col-md-6 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="additionalDetails" class="fild" type="text"
-                                                                    placeholder="Additional details">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4 col-12">
-                                                            <div class="form-fild">
-                                                                <input id="volume" class="fild" type="number"
-                                                                    placeholder="Volume, m3" required min="0">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-9 col-12">
-                                            <div class="row chack">
-                                                <div class="col-lg-3 col-md-6 col-12">
-                                                    <div class="form-fild s2">
-                                                        <input type="checkbox" id="expressDelivery">
-                                                        <label class="chack-leval" for="expressDelivery">Express
-                                                            delivery</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6 col-12">
-                                                    <div class="form-fild s2">
-                                                        <input type="checkbox" id="fragile">
-                                                        <label class="chack-leval" for="fragile">Fragile</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6 col-12">
-                                                    <div class="form-fild s2">
-                                                        <input type="checkbox" id="insurance1">
-                                                        <label class="chack-leval" for="insurance1">Insurance</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6 col-12">
-                                                    <div class="form-fild s2">
-                                                        <input type="checkbox" id="insurance2">
-                                                        <label class="chack-leval" for="insurance2">Insurance</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-fild mb-0">
-                                                <button type="submit" class="theme-btn">Request For a Quote</button>
-                                            </div>
-                                        </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="quote-form">
+                            <div class="title">
+                                <h3>Request a quote form</h3>
+                            </div>
+                            <form id="quoteForm">
+                                <div class="row">
+                                    <div class="item col-lg-12">
+                                        <label>Personal information</label>
+                                        <input class="form-control" type="text" name="name" id="name"
+                                            placeholder="Full Name">
                                     </div>
-                                </form>
-                            </div>
-                            <div class="video-content">
-                                <img src="assets/images/video-bg-2.jpg" alt="">
-                                <div class="video-holder">
-                                    <a href="https://www.youtube.com/embed/7Jv48RQ_2gk" class="video-btn"
-                                        data-type="iframe"><i class="flaticon-play-button-arrowhead"></i></a>
+                                    <div class="item col-lg-6 col-12">
+                                        <input class="form-control" type="email" name="email" id="email"
+                                            placeholder="Email">
+                                    </div>
+                                    <div class="item col-lg-6 col-12">
+                                        <input class="form-control" type="text" name="phone" id="phone"
+                                            placeholder="Phone">
+                                    </div>
+                                    <div class="item col-lg-12">
+                                        <label>Delivery information</label>
+                                        <select name="city" id="city" class="form-control">
+                                            <option value="">Origin</option>
+                                            <option value="city1">Dubai</option>
+                                            <option value="city2">UK</option>
+                                            <option value="city3">China</option>
+                                            <option value="city4">Turkey</option>
+                                        </select>
+                                    </div>
+                                    <div class="item col-lg-12">
+                                        <label>Delivery information</label>
+                                        <select name="city" id="city" class="form-control">
+                                            <option value="">Destination</option>
+                                            <option value="city1">Kenya</option>
+                                        </select>
+                                    </div>
+                                    <div class="item col-lg-6 col-12">
+                                        <label>Freight Type</label>
+                                        <select name="type" id="type" class="form-control">
+                                            <option value="">Freight Type</option>
+                                            <option value="type1">Air</option>
+                                            <option value="type2">Ocean</option>
+                                        </select>
+                                    </div>
+                                    <div class="item col-lg-6 col-12">
+                                        <label>Load Type</label>
+                                        <select name="type" id="type" class="form-control">
+                                            <option value="">Load Type</option>
+                                            <option value="type1">Full</option>
+                                            <option value="type2">Half</option>
+                                            <option value="type3">Partial</option>
+                                        </select>
+                                    </div>
+                                    <div class="item col-lg-6 col-12">
+                                        <label for="weight">Weight (KGs)</label>
+                                        <input type="text" name="weight" id="weight" class="form-control" placeholder="Weight (KGs)">
+                                    </div>
+                                    
+                                    
+                                    
+                                    <div class="item col-lg-6 col-12">
+                                        <label for="volume">Volume (m³)</label>
+                                        <input type="text" name="volume" id="volume" class="form-control" placeholder="Volume (m³)">
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    <div class="item col-12">
+                                        <ul>
+                                            <li>
+                                                <input type="checkbox" id="Fragile">
+                                                <label for="Fragile">Fragile</label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="Express">
+                                                <label for="Express">Express delivery</label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="Insurance">
+                                                <label for="Insurance">Insurance</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item col-12">
+                                        <input class="theme-btn" type="submit" value="Get A Quote">
+                                    </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="shape">
-                <img src="assets/images/shape-1212.png" alt="">
+            <div class="left-bg">
+                <!-- <div class="img1">
+                    <img src="assets/images/get1.png" alt="">
+                </div> -->
+                <div class="img2">
+                    <img src="assets/images/get2.svg" alt="">
+                </div>
+                <div class="img3">
+                    <img src="assets/images/get3.svg" alt="">
+                </div>
             </div>
-        </section>
+            <!-- <div class="rigth-bg">
+                <img src="assets/images/get4.png" alt="">
+            </div> -->
+        </section> 
+        <!-- end of wpo-get-quate-section -->
       
 
         <!--start of wpo-cta-section-s2 -->
-        <div class="wpo-cta-section-s2">
+        <div class="wpo-cta-section-s2" style="margin-top: 20px;">
             <div class="container">
                 <div class="cta-wrapr">
                     <div class="wpo-section-title">
@@ -515,11 +354,7 @@
                                 </div>
                                 <p>570 8th Ave, New York,NY 10018
                                     United States</p>
-                                <h4>Opening Hours</h4>
-                                <ul>
-                                    <li>9.30am – 6.30pm</li>
-                                    <li>Monday to Friday</li>
-                                </ul>
+                                
                             </div>
                         </div>
                         <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
@@ -528,26 +363,23 @@
                                     <h3>Services</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="services-single.html">Electronics Industry</a></li>
-                                    <li><a href="services-single.html">Industrial & Manufacturing</a></li>
-                                    <li><a href="services-single.html">Semicon & Solar</a></li>
-                                    <li><a href="services-single.html">Oil & Gas Cargo</a></li>
-                                    <li><a href="services-single.html">ship & cargo services</a></li>
-                                    <li><a href="services-single.html">Maritime transportation</a></li>
+                                    <li><a href="air-transport.html">Air Freight</a></li>
+                                    <li><a href="ocean-transport.html">Ocean Freight</a></li>
+                                    <li><a href="online.html">Online Buying</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div class="widget link-widget">
                                 <div class="widget-title">
-                                    <h3>Useful links</h3>
+                                    <h3>Quick links</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="services-single.html">How it Works</a></li>
-                                    <li><a href="services-single.html">Help Link</a></li>
-                                    <li><a href="services-single.html">Terms & Conditions</a></li>
-                                    <li><a href="services-single.html">Contact Us</a></li>
-                                    <li><a href="services-single.html">Privacy Policy</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="shop.html">Shop Online</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="about.html">About Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -577,12 +409,12 @@
                     <div class="row g-0 align-items-center">
                         <div class="col col-lg-2 col-12">
                             <div class="logo">
-                                <img src="assets/images/logo-2.svg" alt="blog">
+                                <img src="assets/images/logo/Black NLC.png" alt="blog">
                             </div>
                         </div>
                         <div class="col col-lg-6 col-12">
-                            <p class="copyright"> &copy; 2024 <a href="index.html">wpOcean</a> - Logistics service. All
-                                rights reserved.</p>
+                            <p class="copyright"> &copy; 2025 <a href="index.html">Netline Cargo Ltd</a> All
+                                rights reserved. | Powered By  </p>  <a href="https://www.axetech.africa/">Axetech Africa</a>
                         </div>
                         <div class="col col-lg-4 col-12">
                             <ul>
