@@ -5536,7 +5536,7 @@ img {
   }
 }
 .wpo-funfact-section .titel-image h1 {
-  background: url(../images/text-img.jpg) center/cover no-repeat;
+  background: url(../images/netline/cargo-container-ship-top-view-carrying-container-a-2024-12-08-00-45-42-utc.webp) center/cover no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -6815,7 +6815,9 @@ img {
 .wpo-cta-section-s2 .cta-wrapr,
 .wpo-cta-section-s3 .cta-wrapr {
   padding: 60px 50px 60px 75px;
-  background: url(../images/cta-bg.jpg) center/cover no-repeat;
+  /* background: url(../images/netline/container-ship-floating-in-sea-2023-11-27-05-13-32-utc.webp) center/cover no-repeat; */
+  background: #0b3742; /* Navy blue */
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15136,3 +15138,428 @@ img {
   color: #20273C;
   font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Section Styling */
+.store-section {
+  margin-bottom: 40px;
+}
+
+.store-section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Card Style for Categories */
+.store-section .store-category {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  height: auto;
+  max-height: 2000px;
+  /* Limit the maximum height of the cards */
+  overflow: hidden;
+  /* Hide overflowing content */
+  width: 100%;
+  /* Make sure card width adjusts to the container */
+  max-width: 1500px;
+  /* Limit the card width */
+  margin: 0 auto;
+  /* Center the card horizontally */
+}
+
+/* Hover effect for cards */
+.store-section .store-category:hover {
+  transform: translateY(-10px);
+}
+
+/* Category Title Styling */
+.store-category h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* List Styling */
+.store-category ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  /* Ensures list takes up available space */
+  overflow-y: auto;
+  /* Allow scrolling if the list overflows */
+  display: flex;
+  flex-direction: column;
+  /* Stack items vertically */
+  justify-content: flex-start;
+  /* Align items to the top */
+}
+
+.store-category li {
+  margin-bottom: 10px;
+}
+
+/* Link Styling */
+.store-category a {
+  text-decoration: none;
+  color: #fc5c29;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.store-category a:hover {
+  color:#fc5c29;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .store-section-title {
+    font-size: 1.8rem;
+  }
+
+  .store-category h3 {
+    font-size: 1.3rem;
+  }
+
+  .store-category a {
+    font-size: 1rem;
+  }
+
+  .store-section .store-category {
+    width: 90%;
+    /* Adjust width for smaller screens */
+    max-width: none;
+  }
+}
+
+
+/* Basic styling for the custom search container */
+.custom-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Wrapper for dropdown menus */
+.custom-search-wrapper {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Label styling */
+.custom-search-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Styling the custom dropdowns */
+.custom-dropdown {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Hover and focus effects for the dropdown */
+.custom-dropdown:hover,
+.custom-dropdown:focus {
+  border-color:#fc5c29;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+/* Styling for the custom search button */
+.custom-search-button {
+  padding: 5px 10px;
+  background-color: #fc5c29;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-search-button:hover {
+  background-color: #fc5c29;
+}
+
+.custom-search-button:focus {
+  outline: none;
+}
+
+#user-name {
+  margin-left: 10px;
+  /* Adds space between the icon and the name */
+  font-size: 16px;
+}
+
+
+
+/* General styles for account dropdown */
+#account-menu {
+  position: absolute;
+  /* Use fixed positioning */
+  background-color: white;
+  /* Background color */
+  border: 1px solid #ccc;
+  /* Border for visibility */
+  z-index: 1000;
+  /* Ensure it appears above other elements */
+  width: 100%;
+  /* Full width on mobile */
+  left: 0;
+  /* Align to the left */
+  top: 60px;
+  /* Adjust this value to position below the icon */
+}
+
+/* Show the dropdown when the class 'show' is added */
+#account-menu.show {
+  display: block;
+  /* Show when class is added */
+}
+
+/* Styles for dropdown items */
+#account-menu li {
+  list-style-type: none;
+  /* Remove bullet points */
+}
+
+#account-menu li a {
+  display: block;
+  /* Make the entire area clickable */
+  padding: 10px 15px;
+  /* Add some padding for better clickability */
+  color: black;
+  /* Change text color to black or any contrasting color */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+
+#account-menu li a:hover {
+  background-color: #f0f0f0;
+  /* Add a hover effect for better UX */
+}
+
+
+/* Media query adjustments for mobile */
+@media (max-width: 768px) {
+  #account-menu {
+    position: absolute;
+    /* Keep it absolute for positioning */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    /* Optional shadow for better visibility */
+    overflow: visible;
+    /* Ensure overflow is visible */
+  }
+}
+
+/* Ensure the parent is a flex container */
+.row {
+  display: flex;
+  /* This will ensure child elements are displayed side by side */
+  justify-content: space-between;
+  /* Optional: Adjust the space between the columns */
+  flex-wrap: wrap;
+  /* Allow wrapping if screen size reduces */
+}
+
+
+
+.service-one__single-img {
+  width: 400px;
+  height: 400px;
+}
+
+
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 120px;
+    /* Smaller size for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    max-width: 100px;
+    /* Even smaller for very small screens */
+  }
+}
+
+
+/* Basic styling for address cards */
+.addressCard {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #062e39;
+}
+
+.addressCard h3 {
+  margin-bottom: 10px;
+  color:#fc5c29
+
+  ;
+}
+
+.addressCard p {
+  margin: 5px 0;
+}
+
+/* Styling for the copy icon */
+.copy-icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: none;
+  margin-left: 10px;
+}
+
+.copy-icon:hover {
+  color: #f15a29;
+}
+
+/* Notification styling */
+.notification {
+  display: none;
+  /* background-color: #4CAF50; */
+  color: white;
+  padding: 1px;
+  border-radius: 0px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+
+/* .logo {
+  width: 10px !important; 
+  height: auto !important;
+} */
+
+/* Reduce logo size on mobile */
+@media (max-width: 768px) {
+  .logo {
+      width: 90px !important;
+  }
+}
+
+
+
+.banner-one__content {
+  margin-top: -300px; /* Move content up */
+  padding-top: 0px;  /* Reduce extra space */
+}
+
+@media (max-width: 768px) { /* Adjust for mobile */
+  .banner-one__content {
+      margin-top: -180px;
+  }
+}
+
+
+
+a {
+  text-decoration: none !important;
+}
+
+
+
+
+.page-header__pattern img {
+  width: 100%;
+  height: auto;
+  max-width: 1920px; /* Keeps it from getting too large */
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .page-header {
+      padding: 23px 0 !important; /* Reduce padding on smaller screens */
+      min-height: auto !important;
+  }
+
+  .page-header__inner {
+      padding: 10px 0 !important; /* Reduce spacing above and below text */
+  }
+
+  .page-header__inner h2 {
+      font-size: 20px !important; /* Force a smaller heading size */
+      margin-bottom: 5px !important; /* Add spacing below heading */
+      padding-left: 10px !important; /* Move text away from the orange line */
+
+  }
+
+  .thm-breadcrumb {
+      font-size: 12px !important; /* Reduce breadcrumb text size */
+      margin-top: 5px !important; /* Add some spacing above breadcrumbs */
+      padding-left: 10px !important; /* Move text away from the orange line */
+
+  }
+
+  .page-header__pattern img {
+      width: 100% !important;
+      height: auto !important;
+  }
+}
+
+
+.page-header__pattern img {
+  width: 100%;
+  height: auto;
+  max-width: 1920px; /* Keeps it from getting too large */
+}
+
+
+
+
+
+.why-choose-one__form-box {
+  margin-top: 15px !important; /* Adjust value as needed */
+}
+
+
+@media screen and (max-width: 768px) {
+  .why-choose-one {
+      padding: 20px 0; 
+  }
+}
