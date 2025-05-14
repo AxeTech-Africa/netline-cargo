@@ -673,7 +673,7 @@ img {
 }
 
 .wpo-breadcumb-area {
-  background: url(../images/netline/cargo-container-ship-top-view-carrying-container-a-2024-12-08-00-45-42-utc.webp) no-repeat center top/cover;
+  background: url(../images/cargo/smoke.webp) no-repeat center top/cover;
   min-height: 500px;
   position: relative;
   display: flex;
@@ -4041,7 +4041,7 @@ img {
   height: 100%;
   z-index: -11;
   content: "";
-  background: linear-gradient(270deg, rgba(2, 59, 68, 0.91) 5.16%, #083943 36.3%, #0B3742 57.47%);
+  background: linear-gradient(270deg, rgba(1,160,138,255) 5.16%, #0ba08a 36.3%, #0ba08a 57.47%);
 }
 .wpo-site-footer .bg-image,
 .wpo-site-footer-s2 .bg-image,
@@ -10767,7 +10767,9 @@ img {
 
 /*6.7 wpo-get-quate-section-s3 */
 .wpo-get-quate-section-s3 {
-  background: #072E36;
+  background: #0ba08a
+
+  ;
   position: relative;
   padding-bottom: 60px;
   overflow: hidden;
@@ -10860,7 +10862,7 @@ img {
 .wpo-get-quate-section-s3 .left-content {
   width: 840px;
   height: 100%;
-  background: url(../images/get-quate.jpg) no-repeat center/cover;
+  /* background: url(../images/get-quate.jpg) no-repeat center/cover; */
   position: absolute;
   right: 0;
   top: 0;
