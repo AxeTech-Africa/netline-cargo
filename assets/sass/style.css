@@ -15581,3 +15581,29 @@ a {
       max-width: 100px;
   }
 }
+
+
+.accordion {
+  padding-bottom: 5rem; /* Ensures space above footer */
+}
+
+footer {
+  position: relative; /* Prevents overlap unless intentional */
+}
+
+
+
+.navbar-header .navbar-brand img {
+    /* Optional: Set a default max-width for all screen sizes */
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for mobile devices (adjust max-width as needed) */
+@media (max-width: 768px) {
+    .navbar-header .navbar-brand img {
+        max-width: 100px !important; /* Set a specific max-width for mobile */
+        /* You can also use a percentage relative to its container */
+        /* max-width: 60%; */
+    }
+}
